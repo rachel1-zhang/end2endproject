@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="base.TestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="DocManageTest(failed)">
+    <classes>
+      <class name="docmanage.DeleteDocTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="deleteDocument"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- docmanage.DeleteDocTest -->
+      <class name="docmanage.AddDocumentTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="addDocument"/>
+        </methods>
+      </class> <!-- docmanage.AddDocumentTest -->
+    </classes>
+  </test> <!-- DocManageTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
