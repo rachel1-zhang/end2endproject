@@ -145,3 +145,5 @@
 2021-02-24  12:17:25 [main] INFO  docmanage.AddDocumentTest - verify successfully!
 2021-02-24  12:17:43 [main] INFO  docmanage.DeleteDocTest - seccessfully!
 2021-02-24  12:19:08 [main] INFO  docmanage.DeleteDocTest - get docManage.operateBtn() successfully!
+
+

@@ -30,6 +30,8 @@ public class AddDocumentTest extends Base{
 	  startBrowser();
 	  log.info("start browser successfully!");
   }
+  
+  
 	  	
   @Test
   public void addDocument() throws IOException, Exception {

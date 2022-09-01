@@ -29,6 +29,7 @@ public class DeleteDocTest extends Base{
 	  log.info("seccessfully!");
   }
   @Test
+
   public void deleteDocument() throws IOException, Exception {
 	  HomePagePO homePage=new HomePagePO(driver);
 	  homePage.loginBtn().click();

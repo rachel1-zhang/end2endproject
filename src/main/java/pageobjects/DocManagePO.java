@@ -22,7 +22,8 @@ public class DocManagePO {
 		
 		//文档内容所在的第二层iframe：ueditor_0	
 		By iframe2 = By.id("ueditor_0");
-		
+
+
 		
 		//iframe中文档内容输入框
 		By DocContent = By.xpath("//body[@class='view']");
