@@ -23,6 +23,7 @@ public class ExtentReportsManager {
             createInstance();
         return extent;
     }
+
  
     //Create an extent report instance
     public static ExtentReports createInstance() {

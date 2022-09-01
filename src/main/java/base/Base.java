@@ -23,6 +23,7 @@ public class Base {
 		Properties prop=new Properties();
 		
 		prop.load(file);
+
 		
 		String browser=prop.getProperty("browser");
 		String url=prop.getProperty("url");
